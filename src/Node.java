@@ -1,8 +1,8 @@
 public class Node {
     public int val;
-    public ListNode next;
+    public Node next;
 
-    public ListNode(int val) {
+    public Node(int val) {
         this.val = val;
         this.next = null;
     }
